@@ -1,0 +1,16 @@
+@import "nav.scss";
+
+* {
+  margin: 0;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  -ms-overflow-style: none; /* hides scroll bar IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
